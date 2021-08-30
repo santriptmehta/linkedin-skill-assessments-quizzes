@@ -1118,3 +1118,12 @@ int median(const my_array& a)
 - [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
 
 Note: This one is similar to Q6, but focuses on the `const` keyword.
+
+#### Q65. Which choice is  a type almost identical to a class?
+
+- [ ] enum
+- [x] struct
+- [ ] union
+- [ ] namespace
+
+
