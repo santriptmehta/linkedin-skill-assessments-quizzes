@@ -1118,3 +1118,18 @@ int median(const my_array& a)
 - [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
 
 Note: This one is similar to Q6, but focuses on the `const` keyword.
+
+#### Q65. Which choice is  a type almost identical to a class?
+
+- [ ] enum
+- [x] struct
+- [ ] union
+- [ ] namespace
+
+#### Q66. Which choice is not related to declaring the member variable count as static in my_class?
+
+- [ ] All object that try to access their count member variable actually refer to the only class-bound static count variable.
+- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+- [ ] The variable exists even when no object of the class have defined, so it can be modified at any point in the source code.
+- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is baound to the class itself, not its instances.
+
